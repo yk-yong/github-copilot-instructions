@@ -13,3 +13,4 @@
 9. If you are refactoring a service, ensure that it abstracts third-party APIs and provides a clear interface for the rest of the application.
 10. If you are refactoring a module, ensure that it follows the Open/Closed Principle, allowing for extension without modification.
 11. If you are refactoring a file, ensure that it is well-organized and follows a consistent naming convention.
+12. List down all related item/service/component that is potentially affected by the refactoring. This helps in identifying dependencies and ensuring that nothing is overlooked.
