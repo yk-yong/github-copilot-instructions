@@ -1,6 +1,6 @@
 # AI Generated App Policy
 
-Policy / rules that I defined in README to generate a project and asking AI Assistant to follow.
+Policy / rules that I defined in markdown file to generate a project and asking AI Assistant to follow.
 
 ```
 **MUST FOLLOW:**
@@ -14,4 +14,8 @@ Policy / rules that I defined in README to generate a project and asking AI Assi
 - Write component in reusable and separate of concerns. Focus on composition.
 - Single responsibility component. (To test it out)
 - Keep component versioned control, create new component whenever introduce new changes. (To test it out)
+
+**Backend Rules:**
+- Use a service layer to handle business logic and data access, keeping controllers thin.
+- Implement error handling and logging in the service layer to ensure robustness.
 ```
